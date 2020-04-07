@@ -1,0 +1,65 @@
+Dependent Variable:				
+	ZSCORE	Altman's Z-Score	Measure of Financial Distress Performance. Using as Proxy for Financial Performance	
+	DIST	Financial Distress Boolean	1 = Distress; 0 = Not in Distress (Based on threshold of 1.1 for Z-Score)	
+				
+Control Variables:				
+	SIZE	Organization size	Natural ogarithm of total assets	
+	BIG4	Audit firm size	1 = Big 4 Accounting firm; 0 = Otherwise	
+	GAAP	Organization form	1 = Non-governmental organization; 0 = Governmental organization	
+				
+Liquidity Ratios:				
+	CR	Current ratio 	Current assets/ Current liabilities	
+	QR	Quick ratio 	(Cash and cash equivalents + Accounts receivable + Marketable securities) / Current liabilities	
+	AT	Acid test ratio 	(Cash and cash equivalents + Marketable securities) / Current liabilities	
+	CashR	Cash ratio 	Cash and cash equivalents / Current liabilities	
+	NWC	Net working capital 	(Current assets - Current liabilities) / Current liabilities	
+	CFOCL	Operating cash flow ratio 	Cash flow from operating activity / Current liabilities	
+		 	 	
+Profitability Ratios:				
+	OM	Operating margin 	(Net patient service revenue - operating expenses)  / Net patient service revenue	
+	TM	Total margin	Excess (deficit) of revenues over (under) expenses / Total operating revenue	
+	CFM	Cash flow margin 	Cash flow from operating activity / Total operating revenue	
+	ROE	Return on equity 	Excess (deficit) of revenues over (under) expenses / Total net assets or equity	
+	ROA	Return on assets 	Excess (deficit) of revenues over (under) expenses / Total assets	
+	GRIE	Growth rate in equity 	(End-of-year net assets - beginning-of-year net assets) / Beginning-of-year net assets	
+	CFONI	Cash flow to net income 	Cash flow from operating activity / Excess (deficit) of revenues over (under) expenses	
+	CFOTL	Cash flow to total liabilities	Cash flow from operating activity / Total liabilities	
+	CFOTR	Cash flow to total revenue	Cash flow from operating activity / Total revenue	
+	CFOTA	Cash return on assets 	Cash flow from operating activity / Total assets	
+				
+Capital Structure:				
+	EF	Equity financing ratio	Net assets / Total assets	
+	FAF	Fixed asset financing ratio	Long-term liabilities / Net fixed assets	
+	LTDE	Long-term debt to equity	Long-term liabilities / Unrestricted net assets	
+				
+Working Capital Efficiency:				
+	CAT	Current asset turnover 	Total operating revenue / Total current assets	
+	DCOH	Days cash on hand (days)	(Cash and cash equivalents + Marketable securities) / ((Total operating expense - depreciation) / days in period)	
+	ACP	Average collection period (days)	Net patient accounts receivable / (Net patient service revenue / days in period)	
+	APP	Average payment period (days)	Current liabilities / ((Total operating expenses - Depreciation) / days in period)	
+				
+Debt Management Ratios:				
+	DR	Debt ratio (%)	Total liabilities / Total assets	
+	DSCR	Debt service coverage (x)	(Excess (deficit) of revenues over (under) expenses + depreciation expense + interest expense) / (Current portion of long-term debt + interest expense)	
+	CFOLTL	Cash flow from opearting to long term liabilities	Cash flow from operating activities / Long-term liabilities	
+				
+Asset Management Ratios:				
+	TAT	Total asset turnover (x)	Total operating revenue / Total assets	
+	FAT	Fixed asset turnover (x)	"Total operating revenue / Fixed assets, net"	
+	DEPR	Depreciation rate	"Depreciation expense / Fixed assets, gross"	
+	CFOFA	Cash flow from operating to fixed asset	"Cash flow from operating activity / Fixed assets, net"	
+				
+Other:				
+	AAP	Average Age of Plant (years)	Accumulated depreciation / Depreciation expense	
+				
+Years:				
+	2009	Year	1 = 2009; 0 otherwise	
+	2010	Year	1 = 2010; 0 otherwise	
+	2011	Year	1 = 2011; 0 otherwise	
+	2012	Year	1 = 2012; 0 otherwise	
+	2013	Year	1 = 2013; 0 otherwise	
+	2014	Year	1 = 2014; 0 otherwise	
+	2015	Year	1 = 2015; 0 otherwise	
+	2016	Year	1 = 2016; 0 otherwise	
+	2017	Year	1 = 2017; 0 otherwise	
+	2018	Year	1 = 2018; 0 otherwise	
